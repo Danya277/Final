@@ -10,11 +10,11 @@ namespace Model.Entities
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public virtual List<Ad> Ads { get; set; }
+        public virtual List<Ad> LikedAds { get; set; }
         public virtual List<UserAds> UserAds { get; set; }
-        public List<Ad> Ads { get; set; }
-        public User()
-        {
-            public virtual List<StudentsSkills> StudentsSkills { get; set; }
+
+
     }
-    }
+
 }

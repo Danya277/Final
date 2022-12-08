@@ -13,11 +13,5 @@ namespace Model.Entities
         public virtual List<UserAds> UserAds { get; set; }
         public int Price { get; set; }  
         public string Specification { get; set; }
-        public int UserId { get; set; }
-
-        public Ad()
-        {
-            UserAds = new List<UserAds>();
-        }
     }
 }
